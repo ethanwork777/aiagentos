@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: spotless-apply
+        name: Apply Google Java formatting
+        entry: mvn -q spotless:apply
+        language: system
+        pass_filenames: false
+      - id: spotbugs-check
+        name: Run SpotBugs
+        entry: mvn -q -DskipTests compile spotbugs:check
+        language: system
+        pass_filenames: false
