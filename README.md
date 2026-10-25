@@ -1,10 +1,10 @@
 # aiagentos
 
-aiagentos is a Java 25 / Spring Boot 3 modular foundation for an AI agent platform.
+aiagentos is a Java 21/ Spring Boot 3 modular foundation for an AI agent platform.
 
 ## Requirements
 
-- JDK 25 (LTS)
+- JDK 21(LTS)
 - Maven 3.9+
 - Optional: `pre-commit` to install the local Git hooks
 

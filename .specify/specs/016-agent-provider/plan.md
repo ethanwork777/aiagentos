@@ -2,7 +2,7 @@
 
 ## Project decisions
 
-- Use the root Maven `java.version` (currently 25) and Spring Boot 3.x versions.
+- Use the root Maven `java.version` (21) and Spring Boot 3.x versions.
 - Import Spring AI BOM 1.1.2, which is verified resolvable; keep provider selection vendor-neutral
   because the lesson gives example provider names but no target vendor or credentials.
 - Place shared contracts/Profile YAML parsing in `aiagentos-core`, provider orchestration and
